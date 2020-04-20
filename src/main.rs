@@ -2,7 +2,7 @@ use std::env;
 
 use temp_converter;
 
-// main function reads command line arguent and pass to convert function. 
+// main function reads command line argument and passes it to convert function. 
 fn main() {
     let mut args: Vec<String> = env::args().skip(1).collect();
 
